@@ -1,0 +1,57 @@
+.gradient-background {
+  background: linear-gradient(300deg, #ADC4CE, #ECF2FF, #D2E0FB);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.profile-img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+#footer {
+  background-color: #D0E8F2;
+}
+
+
+        @media (max-width: 576px) {
+           body {
+            background-color: #DFEEEA;
+           }
+        }
+
+        @media (min-width: 576px) and (max-width: 980) {
+           body {
+            background-color: slateblue;
+           }
+        }
+
+        @media (min-width: 981px) and (max-width: 1200) {
+           body {
+            background-color: #C5DFF8;
+           }
+        }
+
+        @media (min-width: 1201px) {
+           body {
+            background-color: #E9F8F9;
+           }
+        }
+
+body {
+	font-family: "Cardo", serif;
+}
+
+
